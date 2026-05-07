@@ -1,9 +1,8 @@
-greetings = "Hello, World!"
-print(greetings)
+def main():
+    name = input("What's your name? ")
+    hello(name)
 
-num1 = 10
-num2 = 20
-num3 = 40
-total = num1 + num2 + num3
+def hello(to="world"):
+    print("hello,", to)
 
-print(total)
+main()
